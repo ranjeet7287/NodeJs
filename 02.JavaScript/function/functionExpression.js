@@ -1,17 +1,17 @@
-function fun(){
+function fun(){              // Function Declaration
     //  some  impl
 }
-let f = function gun(){
+let f = function gun(){      // Function Expression
     // some impl
 }
-let a = function(){
+let a = function(){          // Function Expression
     // okk some more impl    
 }
 
-(function x(){
+(function x(){               // Function Expression  Not AN IIFE WE ARE NOT INVOKEING
     //  can you stop it ?
 })
 
-(function(){
+(function(){                 // Function Expression
     // i am done
 })
